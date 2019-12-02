@@ -51,3 +51,13 @@ for i in students:
 for i in "midhun":
 	print (i)
 "the output will be each letter of the string 'midhun'"
+
+#break statement is used to exit from the loop
+students= [1,2,3,4,5,6,7,8,9,10]
+
+for i in students:
+	if (i%2==0):
+		print(i)
+		break
+the output will be 2 because first the loop will move to 1 it is not divisble by 2
+ then the loop will move to 2 and it is divisble by 2 then the loop will exit
