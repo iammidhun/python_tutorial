@@ -29,3 +29,9 @@ if (x<30):
 		print("x is less than 20")
 		if (x<15):
 			print("x is less than 15")
+
+#using pass
+"when you want to make a condition to be empty you can simply add pass statemnt inside it"
+if (5<4):
+	pass
+
