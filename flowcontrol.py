@@ -18,3 +18,14 @@ if (name!='hari'):
 	print ('sorry you have entered a wrong name')
 else :
 	print('you have entered correct name')
+
+#nested if 
+
+x = input("enter a no ") #accepting an input from user
+x = int(x) #converting string to int
+if (x<30):
+	print ("x is less than 30")
+	if (x<20):
+		print("x is less than 20")
+		if (x<15):
+			print("x is less than 15")
