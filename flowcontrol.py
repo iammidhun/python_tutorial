@@ -11,3 +11,10 @@
 name  =  "midhun"
 if (name=='midhun'):
 	print ("okay his name is correct")
+
+#if-else 
+
+if (name!='hari'):
+	print ('sorry you have entered a wrong name')
+else :
+	print('you have entered correct name')
