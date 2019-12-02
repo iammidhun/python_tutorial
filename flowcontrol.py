@@ -35,3 +35,19 @@ if (x<30):
 if (5<4):
 	pass
 
+#foor loop 
+iterating over list , tuple, string , dictionary etc
+
+for is the keyword
+
+#for example
+students  = [1,2,3,4,5,6,7,8,9,10]
+
+for i in students:
+	print (i)
+
+"this will print each oject of the list students"
+
+for i in "midhun":
+	print (i)
+"the output will be each letter of the string 'midhun'"
