@@ -80,3 +80,16 @@ i = 25  #initialize a variable i to 25
 while i < 30: #while loop started and check if it is less than 30
 	print(i)
 	i =  i+1
+
+out will be 25 to 29
+
+#continue
+"continue is stop from the current statement and move to next one"
+
+i = 3
+while i < 10:
+	i = i+2
+	if (i==5):
+		continue
+	print(i)
+the output will be 7 9 11
