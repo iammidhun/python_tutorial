@@ -61,3 +61,16 @@ for i in students:
 		break
 the output will be 2 because first the loop will move to 1 it is not divisble by 2
  then the loop will move to 2 and it is divisble by 2 then the loop will exit
+
+#for loop in dict 
+
+student  = {'name':'midhun','age':23,'phone':9946810526}
+for (k,v) in student.items():
+	print(k,v)
+
+"the output will be"
+name midhun
+age 23
+phone 9946810526
+
+#while loop
