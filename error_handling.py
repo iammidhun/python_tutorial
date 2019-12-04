@@ -25,3 +25,14 @@ except:
 
 #'int' object has no attribute 'strip' it is an attribute error so except Attributeerror will occur first
 the output will be "it is an AttributeError"
+
+#finally
+"finally block will execute what ever the output of try block"
+no = 25 
+try: 
+	no.strip() 
+except AttributeError: 
+	print("it is an AttributeError") 
+finally: 
+    print("executed") 
+                                                       
