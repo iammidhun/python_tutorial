@@ -35,4 +35,9 @@ except AttributeError:
 	print("it is an AttributeError") 
 finally: 
     print("executed") 
-                                                       
+    
+"raise is used to throw an exception"
+no = 25
+if (type(no)!=str): 
+    raise TypeError("sorry it is not string and can not do strip") 
+                                                   
