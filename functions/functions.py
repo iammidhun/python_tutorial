@@ -67,3 +67,22 @@ student(age=23,name="midhun")
 student(age=23,name="midhun",div ="c")
 #check output 
 
+#*args
+"suppose we want to pass more argument than we declared in the function definition"
+"in such cases we use *args"
+
+def student(name,age,*ss):
+	print("his name is {}".format(name))
+	print("his age is {}".format(age))
+	print(type(ss))
+
+
+student(age=23,name="midhun")
+
+#the ouput will be 
+his name is midhun
+his age is 23
+<class 'tuple'>
+
+
+
