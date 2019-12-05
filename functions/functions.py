@@ -36,3 +36,20 @@ def sum(a,b):
 sum(4)
 "while calling sum function it will return error"
 TypeError: sum() missing 1 required positional argument: 'b'
+
+
+#keyword argument concept
+#example
+
+
+
+def student(name,age):
+	print("his name is {}".format(name))
+	print("his age is {}".format(age))
+
+
+student(age=23,name="midhun")
+#rather than the position it is focusing on the keyword
+#the ouput will be
+his name is  midhun
+his name is 23
