@@ -23,3 +23,16 @@ def sum(a,b):
 a = int(input()) #taking input from user to variable a 
 b = int(input()) #taking input from user to variable b
 p = sum(a,b) #calling function sum and output wil retunr to variable p
+
+"Argument passinng"
+#-----------------------------
+"Required arguments"
+
+def sum(a,b):
+	s =  a+b
+	return s
+
+
+sum(4)
+"while calling sum function it will return error"
+TypeError: sum() missing 1 required positional argument: 'b'
