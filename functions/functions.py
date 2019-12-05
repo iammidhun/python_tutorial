@@ -85,4 +85,16 @@ his age is 23
 <class 'tuple'>
 
 
+def names(*args):
+    for i in args:
+        print(i)
+        
+
+names(1,2,3,4)
+#the ouptu will be
+1
+2
+3
+4
+
 
