@@ -53,3 +53,17 @@ student(age=23,name="midhun")
 #the ouput will be
 his name is  midhun
 his name is 23
+
+
+
+#default argument
+"we can set a default value to an argument if the argument is not passing in function call"
+def student(name, age, div="b"):
+	print("his name is {}".format(name))
+	print("his age is {}".format(age))
+	print("his age is {}".format(div))
+
+student(age=23,name="midhun")
+student(age=23,name="midhun",div ="c")
+#check output 
+
