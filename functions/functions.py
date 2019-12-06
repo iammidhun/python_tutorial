@@ -98,3 +98,18 @@ names(1,2,3,4)
 4
 
 
+def names(firstno,*args):
+	print("the first number is ",firstno)
+	for i in range(len(args)):
+		print("elements in the args at {0} th position is {1}".format(i,args[i]))
+
+names(1,2,3,4,5,6,7)
+
+#the output will be
+the first number is  1
+elements in the args at 0 th position is 2
+elements in the args at 1 th position is 3
+elements in the args at 2 th position is 4
+elements in the args at 3 th position is 5
+elements in the args at 4 th position is 6
+elements in the args at 5 th position is 7
