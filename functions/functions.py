@@ -117,3 +117,11 @@ elements in the args at 5 th position is 7
 #**kwargs
 "suppose we want to pass more keyword argument than we declared in the function definition"
 "in such cases we use **args"
+def student(name,**args):
+    print(name)
+    print(args)
+    
+student("midhun",age=2,college="CETkr")
+#theoutput will be
+midhun
+{'age': 2, 'college': 'CETkr'}
