@@ -113,3 +113,7 @@ elements in the args at 2 th position is 4
 elements in the args at 3 th position is 5
 elements in the args at 4 th position is 6
 elements in the args at 5 th position is 7
+
+#**kwargs
+"suppose we want to pass more keyword argument than we declared in the function definition"
+"in such cases we use **args"
