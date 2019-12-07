@@ -9,3 +9,9 @@ print(x(4))
 
 output : 20
 
+
+x = lambda a,b,c  : a+b+c
+
+print(x(4,5,6))
+
+output : 15
