@@ -32,3 +32,12 @@ ob.name #this will return name
 # The sole purpose of __init__ is to initialize the values of instance members for the new object
 
 
+"class attribute"
+
+class Student:
+	div = "B" #div is a class attribute
+	def __init__(self,name,age):
+		self.name = name
+		self.age  =  age
+
+"class attribute  is common for any object and attributes passed in __init__ is only for particular object"
