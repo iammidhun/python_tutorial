@@ -22,7 +22,13 @@ class classname():
 
 class Student:
 	def __init__(self,name,age):
-		self.name =  name 
+		self.name =  name #self means an object
 		self.age = age 
 
-obj =  Student("midhun",23)
+obj =  Student("midhun",23) #an instance created of the class Student
+ob.name #this will return name
+"midhun"
+#__init__ is a special Python method that is automatically called when memory is allocated for a new object
+# The sole purpose of __init__ is to initialize the values of instance members for the new object
+
+
