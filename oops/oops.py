@@ -41,3 +41,23 @@ class Student:
 		self.age  =  age
 
 "class attribute  is common for any object and attributes passed in __init__ is only for particular object"
+
+class Student:
+	def __init__(self,name,age,marks):
+		self.name =  name #self means an object
+		self.age = age
+		self.marks = marks
+	def sum(self):
+		sum  = 0
+		for i in self.marks:
+			sum =  sum+i
+		return (sum)
+	def percentage(self):
+		sum  = 0
+		for i in self.marks:
+			sum =  sum+i
+		return((sum/150)*100)
+
+obj  = Student("midhun",22,[30,30,30,30,30])
+obj.sum() #this will return sum of marks which passed
+obj.percentage()# this will return the sum of marks
